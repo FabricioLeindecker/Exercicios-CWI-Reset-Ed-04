@@ -1,0 +1,7 @@
+Exercícios:
+
+1 - Cite 2 exemplo de técnicas de planejamento de testes.
+R: Mind Map (Mapa Mental) e Pareto, existem também as técnicas de Cauda Longa, Testes Combinatoriais e Pairwise 
+
+2 - Cite 3 exemplos de artefatos/documentos possíveis para a modelagem de testes?
+R: Caso de teste, user stroy, mapa mental, BDD-Gherkin, tabela, ficha de Teste exploratório, checklist, diagramas 

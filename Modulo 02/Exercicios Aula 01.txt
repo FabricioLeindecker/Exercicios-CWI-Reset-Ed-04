@@ -1,0 +1,9 @@
+Exercício:
+
+1 - Cite 2 técnicas de teste de caixa preta.
+R: Particionamento de equivalência e Pairwise.
+
+2 - O que você entende por testes de caixa preta e testes de caixa branca?
+R: Testes de caixa preta são testes com entradas e saídas sem referência com a estrutura interna,
+E testes caixa branca são baseados na estrutura e no processamento dentro do objeto de testes,
+com acesso ao código 

@@ -1,0 +1,26 @@
+Exercício:
+Elabore cenários simulando testes na funcionalidade de login do Google
+Considerações:
+Pense em fluxos principais e fluxos alternativos;
+Exercite as técnicas de testes apresentada nos vídeos;
+Descreva pelo menos um cenário na estrutura passo a passo, e ao menos um cenário no formato Gherkin.
+
+R:
+Exemplo de cenário passo a passo:
+
+Acessar o sistema com um usuário válido
+Ação							                        Resultado
+Acessar o site                                          Devo ser direcionado para a página de login
+Preencher o campo de email com um email válido          Não deve ocorrer nenhum erro
+Clicar no botão "Proxima"                               Devo ser direcionado para a tela de senha
+Preencher o campo de senha com uma senha válida         Não deve ocorrer nenhum erro
+Clicar no botão "Proxima"                               Devo ser direcionado para a aplicação
+
+
+Exemplo de cenário utilizando Gherkin:
+
+Cenário: Acessar o site com um usuário válido
+Dado que acessei a aplicação
+E fui direcionado para o login
+Quando preencho meus dados de acesso corretamente
+Então sou redirecionado para a aplicação
